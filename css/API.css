@@ -1,8 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  background: url(../images/Backgroundimg.jpg);
-  background-position: bottom;
+  background: url(../images/ironbackgroundd.jpg);
+  /* background-position: bottom; */
   background-size: cover;
   background-attachment: fixed;
   /* font-family: "poppins",sans-serif; */
@@ -18,7 +18,7 @@ body {
   background: #fff;
   width: 1200px;
   margin: 47px auto;
-  border-radius: 4px;
+  border-radius: 5px;
 }
 
 #template div {
@@ -60,6 +60,7 @@ h1 {
   margin-top: 13px;
   align-items: center;
   justify-content: center;
+  margin-right: 500px;
   height: 100vh;
   text-align: center;
 }
@@ -79,9 +80,10 @@ h1 {
 
 #formBlock input{
  padding: 15px;
- width: 600px;
- border-radius: 5px;
+ width: 500px;
+ border-radius: 25px;
  border: none;
+ box-shadow: 1px 1px 3px rgb(123, 123, 204);
 }
 
 .afterkey_formBlock{
